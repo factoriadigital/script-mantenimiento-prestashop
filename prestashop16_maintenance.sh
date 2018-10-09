@@ -5,8 +5,8 @@ VERBOSE=true
 
 # Vars
 ROOT_DIR="/home/" # Absolute path to this script
-CACHE_EXPIRATION=2
-CACHE_IMAGES_EXPIRATION=180
+CACHE_EXPIRATION=180 # In days
+CACHE_IMAGES_EXPIRATION=2 # In days
 
 # Function declarations
 function usage() 
