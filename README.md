@@ -80,5 +80,6 @@ El script comenazará a escanear los directorios y a proceder con su limpieza.
 #### Opciones adicionales
 ```bash 
 VERBOSE=true
-CACHE_IMAGES_EXPIRATION=180
+CACHE_EXPIRATION=180
+CACHE_IMAGES_EXPIRATION=2
 ```
