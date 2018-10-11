@@ -107,6 +107,13 @@ do
     # If Prestashop is found
     if [ -f "$ROOT_DIR$dir/public_html/config/settings.inc.php" ]; then    
         clean "$ROOT_DIR$dir/public_html"
+    else
+        for subdir in $ROOT_DIR$dir/public_html/*;
+        do
+            if [ -f "$subdir/config/settings.inc.php" ]; then
+                clean "$subdir"
+            fi
+        done
     fi
 done
 
@@ -115,4 +122,11 @@ done
 # If Prestashop 1.6 is found
 #if [ -f "$ROOT_DIRconfig/settings.inc.php" ]; then    
 #    clean "$ROOT_DIR"
+#else
+#   for subdir in $ROOT_DIRpublic_html/*;
+#   do
+#       if [ -f "$subdir/config/settings.inc.php" ]; then
+#           clean "$subdir"
+#       fi
+#   done
 #fi
