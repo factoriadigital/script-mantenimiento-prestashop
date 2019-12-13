@@ -1,5 +1,5 @@
 
-# Prestashop Maintenance Script por FactoriaDigital
+# Script de Mantenimiento para Prestashop 1.6 por FactoriaDigital
 ![](https://img.shields.io/github/stars/factoriadigital/prestashop-maintenance-script.svg) ![](https://img.shields.io/github/forks/factoriadigital/prestashop-maintenance-script.svg) ![](https://img.shields.io/github/tag/factoriadigital/prestashop-maintenance-script.svg) ![](https://img.shields.io/github/release/factoriadigital/prestashop-maintenance-script.svg) ![](https://img.shields.io/github/issues/factoriadigital/prestashop-maintenance-script.svg) 
 
 Estos scripts realizan la limpieza segura de los directorios de caché de Smarty /cache/smarty/compile y /cache/smarty/cache, así como del directorio /cache/cachefs y los directorios cache de los theme, por ejemplo /themes/default-bootstrap/cache/.
